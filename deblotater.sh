@@ -35,4 +35,4 @@ echo "evince/documents removed"
 sudo apt purge ubuntu-report popularity-contest apport whoopsie -y
 echo "Yay ubuntu stoped spying on you!"
 sudo apt install cinnamon -y
-echo "Installed cinnamon cuz gnome is slow and spyware"
+echo "Installed cinnamon cuz gnome is slow and spyware and it got uninstalled"
