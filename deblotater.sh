@@ -18,7 +18,7 @@ sudo apt install gnome-software -y
 sudo apt purge gnome-software-plugin-snap -y
 sudo apt install gnome-software-plugin-flatpak -y
 echo "Now you have a REAL SOFTWARE CENTER!"
-sudo apt purge thunderbird
+sudo apt purge thunderbird -y
 echo "Now Thunderbird removed install your app"
 sudo apt purge shotwell -y
 echo "i dont use shotwell"
