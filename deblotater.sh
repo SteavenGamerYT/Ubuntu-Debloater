@@ -14,10 +14,6 @@ sudo apt purge gnome-mines -y
 sudo apt purge gnome-mahjongg -y
 echo "I dont know the pakage name of solitaire."
 echo "but I removed all the gnome games"
-sudo apt install gnome-software -y
-sudo apt purge gnome-software-plugin-snap -y
-sudo apt install gnome-software-plugin-flatpak -y
-echo "Now you have a REAL SOFTWARE CENTER!"
 sudo apt purge thunderbird
 echo "Now Thunderbird removed install your app"
 sudo apt purge shotwell -y
@@ -26,13 +22,17 @@ sudo apt purge seahorse -y
 echo "seahorse removed"
 sudo apt purge remmina -y
 echo "remmina removed"
-sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y
-echo "Now ubuntu is updated!"
-sudo apt install gnome-tweaks -y
-echo "Now you can customise GNOME"
 sudo apt purge evince -y
 echo "evince/documents removed"
 sudo apt purge ubuntu-report popularity-contest apport whoopsie -y
 echo "Yay ubuntu stoped spying on you!"
+sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y
+echo "Now ubuntu is updated!"
 sudo apt install cinnamon -y
 echo "Installed cinnamon cuz gnome is slow and spyware and it got uninstalled"
+sudo apt install gnome-tweaks -y
+echo "Now you can customise GNOME"
+sudo apt install gnome-software -y
+sudo apt purge gnome-software-plugin-snap -y
+sudo apt install gnome-software-plugin-flatpak -y
+echo "Now you have a REAL SOFTWARE CENTER!"
