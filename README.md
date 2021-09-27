@@ -1,11 +1,9 @@
-# Ubuntu-Debloater
-Ubuntu Debloater
+# A Ubuntu Debloat script
+A Ubuntu Debloat script
 
 
-An app to dbloat ubuntu and get rid of blotware and Speed up as SteavenToolbox for Windows
-
-
-this midge not work on not ubuntu beast systems! 
-
-
-Don't use it on debian only on ubunutu beast systems
+What that script dose
+removes GNOME installs cinnamon cuz it's more better
+removes snaps and installs flatpack and gnome software and it's flatpack support
+removes ubuntu report auto sending
+get rid of pre installed games and thunderbird
