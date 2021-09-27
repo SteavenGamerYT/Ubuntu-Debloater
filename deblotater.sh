@@ -25,7 +25,7 @@ echo "remmina removed"
 sudo apt purge evince -y
 echo "evince/documents removed"
 sudo apt purge ubuntu-report popularity-contest apport whoopsie -y
-echo "Yay ubuntu stoped spying on you!"
+echo "Yay ubuntu stoped auto sending crashs to ububut servers!"
 sudo apt update && sudo apt upgrade -y && sudo apt full-upgrade -y
 echo "Now ubuntu is updated!"
 sudo apt install cinnamon -y
