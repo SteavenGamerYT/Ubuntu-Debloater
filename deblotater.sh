@@ -1,4 +1,10 @@
 #!/bin/bash
+echo "Adding Amazings pps"
+sudo add-apt-repository ppa:system76/pop -y
+sudo sh -c 'echo "deb http://packages.linuxmint.com/ ulyssa main" >> /etc/apt/sources.list.d/mint.list' 
+sudo apt-key adv --recv-keys --keyserver keyserver.ubuntu.com A1715D88E1DF1F24 40976EAF437D05B5 3B4FE6ACC0B21F32 A6616109451BBBF2
+sudo apt update
+
 sudo snap remove snap-store 
 sudo snap remove gtk-common-themes 
 sudo snap remove gnome-3-34-1804 
