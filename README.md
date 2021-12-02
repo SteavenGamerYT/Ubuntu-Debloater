@@ -1,7 +1,7 @@
 # A Ubuntu Debloat script
 A Ubuntu Debloat script
 
-# Clasic debloater.sh
+# Clasic - debloater.sh
 What that script dose
 
 removes GNOME installs cinnamon cuz it's more better
