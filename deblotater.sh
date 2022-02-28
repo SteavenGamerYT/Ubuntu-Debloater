@@ -1,7 +1,7 @@
 #!/bin/bash
 sudo snap remove snap-store 
 echo "Removed Snap Store!"
-sudo apt purge thunderbird
+sudo apt purge thunderbird -y
 echo "Now Thunderbird removed install your app"
 sudo apt purge shotwell seahorse remmina evince -y
 echo "Uinstalled more blotware install yours!"
